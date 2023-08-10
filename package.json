@@ -1,0 +1,21 @@
+{
+  "name": "langchaingpt",
+  "version": "1.0.0",
+  "description": "Project for embbedings",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Ibáñez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.110",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
