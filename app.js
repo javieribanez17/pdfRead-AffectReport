@@ -120,6 +120,9 @@ app.post("/gpt", async (req, res) => {
         consultPrev: consultPrev
     });
 });*/
+app.get("/prueba", (req, res) => {
+  res.render("branch");
+});
 app.listen(PORT, function () {
   console.log("Servidor corriendo en el puerto 3000");
 });
