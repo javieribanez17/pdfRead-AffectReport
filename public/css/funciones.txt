@@ -1,0 +1,5 @@
+                        <!-- <% respondModel.forEach(respuesta=> { %>
+                            <% text +=respuesta %>
+                                <% }); %>
+                                    <textarea class="form-control" disabled="true" id="askModel"
+                                        rows="10"><%= text %></textarea> -->
